@@ -1,0 +1,36 @@
+{
+  "name": "coffee",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "id": true,
+      "required": true
+    },
+    "coffeeName": {
+      "type": "string",
+      "required": true
+    },
+    "roaster": {
+      "type": "string"
+    },
+    "rate": {
+      "type": "number"
+    },
+    "origin": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": []
+}
