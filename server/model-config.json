@@ -25,5 +25,13 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "coffee": {
+    "dataSource": "db",
+    "public": true
+  },
+  "shop": {
+    "dataSource": "db",
+    "public": true
   }
 }
